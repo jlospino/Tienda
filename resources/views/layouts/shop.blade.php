@@ -31,9 +31,6 @@
                             <a href="{{ route('home') }}" class="btn btn-outline-primary my-2 my-sm-0" style="color: aliceblue">Panel Administrador</a>
                         @else
                             <a class="btn btn-outline-primary my-2 my-sm-0" style="color: aliceblue" href="{{ route('login') }}">Ingresar</a>
-                            @if (Route::has('register'))
-                                <a class="btn btn-outline-primary my-2 my-sm-0" style="color: aliceblue" href="{{ route('register') }}">Registro</a>
-                            @endif
                         @endauth
                     @endif
                     </div>
